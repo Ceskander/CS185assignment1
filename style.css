@@ -1,5 +1,6 @@
 .header {
 	display: flex;
+	font-family: "Comic Sans MS";
 }
 .nav-bar {
 	display: flex;
@@ -15,4 +16,7 @@
 }
 .main-body {
 	display: flex;
+}
+.paragraph{
+	font-family:"Comic Sans MS";
 }
