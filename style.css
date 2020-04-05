@@ -1,5 +1,6 @@
 .header {
 	display: flex;
+	font-family: "Comic Sans MS";
 }
 .nav-bar {
 	display: flex;
@@ -13,6 +14,9 @@
 .tab.extra{
 	background-color: pink;
 }
-/*.main-body {
+.main-body {
 	display: flex;
-}*/
+}
+.paragraph{
+	font-family:"Comic Sans MS";
+}
