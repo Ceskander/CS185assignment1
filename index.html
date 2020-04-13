@@ -4,21 +4,27 @@
 	<link rel = "shortcut icon" type = "image/x-icon" href = "images/sbbeach.jpeg">
 	<title>Crystal Eskander</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type = "text/javascript" src="my_script.js"></script>
 </head>
 <body>
+	
 	<div class = "header">
 		<h1>Crystal Eskander</h1>	
 	</div>
-	<div class = "nav-bar">
-		<div class ="tab">
-			<a href="https://www.linkedin.com/in/crystal-eskander/">LinkedIn</a>
-		</div>
-		<div class = "tab extra">
-			<a href="https://github.com/Ceskander">Github</a>
-		</div>
+
+	<!-- Tab links -->
+	<div class="tab">
+	  <button class="tablinks" onclick="openCity(event, 'Home')" id = "defaultOpen">Home</button>
+	  <button class="tablinks" onclick="openCity(event, 'Images')">Images</button>
+	  <button class="tablinks" onclick="openCity(event, 'Videos')">Videos</button>
+	  <button class="tablinks" onclick="openCity(event, 'Projects')">Projects</button>
 	</div>
 
-	<div class = "main-body">
+		<!-- Tab content -->
+
+	<div id="Home" class="tabcontent">
+		<h1>Home</h1>	
+	  	<div class = "main-body">
 		<div>
 			<img src="images/bucketbeach.jpeg" style = "width:500px; height:400px;">
 		</div>
@@ -32,5 +38,81 @@
 			</p>
 		</div>
 	</div>
+	</div>
+
+	<div id="Images" class="tabcontent">
+	  <h1>Images</h1>
+	  <div class = "gallery">
+		<img src="images/sfbridge.jpeg" style = "width:400px; height:300px;">
+		<img src="images/sbbeach.jpeg" style = "width:400px; height:300px;">
+		<img src="images/seattle.jpg" style = "width:400px; height:300px;">
+		<img src="images/friends.jpg" style = "width:400px; height:300px;">
+		<img src="images/manhattanbeach.jpeg" style = "width:400px; height:300px;">
+		<img src="images/yosemite.jpg" style = "width:400px; height:300px;">
+		<img src="images/plane.jpeg" style = "width:400px; height:300px;">
+		<img src="images/suncoming.jpeg" style = "width:400px; height:300px;">
+		<img src="images/shoesonbeach.jpeg" style = "width:400px; height:300px;">
+		</div>
+	</div>
+	</div>
+
+	<div id="Videos" class="tabcontent">
+	  <h1>Videos</h1>
+	  <div class = "videos_gallery">
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/EMvLUOLhU-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/uZflltf687s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/OP-00EwLdiU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/6xx0d3R2LoU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/U5EAHk3uDXs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/WYP9AGtLvRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/ah7Rfzj47tM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/KjJXB2Zkxgo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		  <iframe width="560" height="315" src="https://www.youtube.com/embed/UMjuqYBF5IQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	  </div>
+	</div>
+
+	<div id="Projects" class="tabcontent">
+		<h1>Projects</h1>
+
+		<p> 
+			<div class = "LocoReminder">
+				LocoReminder Android App
+			</div>
+		<a href="https://sites.google.com/view/locoreminder/home" target = "_blank">
+			<img border="0" src="images/locoreminder.png" width="450" height="200">
+		</a>
+		</p>
+
+		<p> 
+			<div class = "LED">
+				Light Emitting Drawings using an LPC-4088
+			</div>
+			<a href="https://sites.google.com/view/lightemittingdrawings/home" target = "_blank">
+				<img border="0" src="images/led.png" width="450" height="200">
+			</a>
+		</p>
+
+		<p> 
+			<div class = "Bermuda">
+				Computer Engineering Capstone Project 2020
+			</div>
+			<a href="https://sites.google.com/view/bermudacapstone/home" target = "_blank">
+				<img border="0" src="images/bermuda.png" width="350" height="300">
+			</a>
+		</p>
+
+	</div>
+
+<!-- 	<div class = "nav-bar">
+		<div class ="tab">
+			<a href="https://www.linkedin.com/in/crystal-eskander/">LinkedIn</a>
+		</div>
+		<div class = "tab extra">
+			<a href="https://github.com/Ceskander">Github</a>
+		</div>
+	</div> -->
+
+
 </body>
 </html>

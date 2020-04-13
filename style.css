@@ -1,21 +1,89 @@
 .header {
 	display: flex;
 	font-family: "Comic Sans MS";
+	color: white;
 }
-.nav-bar {
+body{
+	/*Changes the background color of the whole page*/
+	/*Color: Marble Blue*/
+	background-color: #566D7E;
+}
+/**************************TAB**********************/
+.tab{
+	overflow: hidden;
+	border: 2px solid #ccc;
+	background-color: black;  
+}
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.2s;
+  color: white;
+  font-family:"Comic Sans MS";
+  font-size: 20px;
+}
+
+#Home, #Images, #Videos, #Projects{
+	font-family:"Comic Sans MS";
+	color: white;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  /*border: 1px solid #ccc;*/
+  border-top: none;
+}
+/**************************TAB**********************/
+
+/************************Gallery********************/
+.gallery{
+	padding: 60px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+	grid-gap: 1rem;
+}
+/************************Gallery*********************/
+
+/*********************Videos_Gallery********************/
+.videos_gallery{
+	padding: 60px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(560px, auto));
+	grid-gap: 1rem;
+}
+/********************Videos_Gallery*********************/
+.LocoReminder{
+	font-size: 20px;
+}
+
+.LED{
+	font-size: 20px;
+}
+
+.Bermuda{
+	font-size: 20px;
+}
+
+.main-body-header, .main-body {
 	display: flex;
-}
-.nav-bar > div {
-	padding: 10px;
-}
-.tab {
-	background-color: yellow;
-}
-.tab.extra{
-	background-color: pink;
-}
-.main-body {
-	display: flex;
+	color: white;
 }
 .paragraph{
 	font-family:"Comic Sans MS";
